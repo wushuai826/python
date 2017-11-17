@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in {9..1};do
+for i in {1..3};do
     for j in {1..9};do
         echo  -n "$j * $i = $(($j*$i))"
 	    if [ $j == $i ];then
